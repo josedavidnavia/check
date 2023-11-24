@@ -1,0 +1,63 @@
+#mainContainerSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#contenedorProductos {
+    width: 50%;
+    min-height: 50vh;
+    border: 2px solid rgb(100, 0, 100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px; /* Puedes ajustar el valor según tus preferencias */
+  padding: 10px;
+}
+
+.oculto {
+    display: none;
+}
+
+.contenedorFormulario {
+    width: 50%;
+    height: 50%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 10px; /* Puedes ajustar el valor según tus preferencias */
+  padding: 10px;
+  
+}
+
+.contenedorProductoSolo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 220px;
+    border: 2px solid purple;
+    background-color: aliceblue;
+    border-radius: 10px; /* Puedes ajustar el valor según tus preferencias */
+  padding: 10px;
+}
+
+.contenedorProductoSolo h1, h2, h3, p {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    border-radius: 10px; /* Puedes ajustar el valor según tus preferencias */
+  border: 1px solid #cccccc00; /* Añade un borde opcional */
+  padding: 10px;
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.contenedorProductoSolo img {
+    width: 200px;
+    height: 200px;
+}
